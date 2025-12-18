@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Manpower Requirement Chart</title>
+
+<style>
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;        
+        padding: 10px;
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 5px;
+        color: #111827;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1.5px solid #000;
+        background: #ffffff;
+        overflow: hidden;        
+
+    }
+    .col {
+        visibility: hidden;
+        border-collapse: collapse;
+        border-color: transparent;
+    }
+
+    th, td {
+        border: 1px solid #9ca3af;
+        padding: 5px;
+        font-size: 13.5px;
+        vertical-align: top;
+        overflow: hidden;
+    }
+
+    th {
+        background: #e5e7eb;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    th:first-child{
+        font-weight: 600;
+        
+    }
+
+    /* ===== Animation base ===== */
+
+    .col {
+        transform: translateY(-120%);
+    }
+
+    .values-hidden span {
+        opacity: 0;
+    }
+    .values-hidden{
+        opacity: 0;
+    }
+    .slide-in {
+        transform: translateY(0);
+        opacity: 1;
+        transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+    }
+
+    .fade-in span {
+        opacity: 1;
+        transition: opacity 0.6s ease-in;
+    }
+
+    span {
+        display: inline-block;
+    }
+
+    .total-row td {
+        font-weight: 700;        
+    }
+    .c2,.c3,.c4{
+        background: #C9DAF8;
+    }
+     .c5,.c6,.c7{
+        background: #D0E0E3;
+    }
+    .c8,.c9,.c10{
+        background: #FFF2CC;
+    }
+    .c1,.c11{
+        background: #F4CCCC;
+    }
+    th, td {
+        text-align: center;
+        vertical-align: middle;
+        font-family: "Segoe UI", Arial, sans-serif;       
+        font-size: 19px;
+    }
+    small{
+        font-size: 14px;
+    }
+    .project{
+        font-size: 40px;
+    }
+    .c1 {
+        text-align: left;
+        width: 35%;        
+    }
+    .heading {
+        text-align: center;
+        vertical-align: middle;
+        font-family: "Segoe UI", Arial, sans-serif;       
+        font-size: 18px;
+    }
+
+
+</style>
+</head>
+
+<body>
+
+
+<table>
+<thead>
+ <tr>
+    <th class="col c1 values-hidden heading" rowspan="2" >Role / Skill/ Experience / Qualification </th>
+    <th class="col c2 values-hidden project" colspan="3">eGujHC</th>
+    <th class="col c5 values-hidden project" colspan="3">CIS</th>
+    <th class="col c8 values-hidden project" colspan="3">eGujHCR</th>
+    <th class="col c11 values-hidden project" rowspan="2">Total</th>
+</tr>
+<tr>
+    <!--<th class="col c1 values-hidden"> / Experience / Qualification</th>-->
+   
+    <th class="col c2 values-hidden">Required<br>Manpower</th>
+    <th class="col c3 values-hidden">Requirement Period<br>(Months)</th>
+    <th class="col c4 values-hidden">Tentative Monthly<br>Renumeration <br>₹ (Lacs)</th>
+    <th class="col c5 values-hidden">Required<br>Manpower</th>
+    <th class="col c6 values-hidden">Requirement Period<br>(Months)</th>
+    <th class="col c7 values-hidden">Tentative Monthly<br>Renumeration <br>₹ (Lacs)</th>
+    <th class="col c8 values-hidden">Required<br>Manpower</th>
+    <th class="col c9 values-hidden">Requirement Period<br>(Months)</th>
+    <th class="col c10 values-hidden">Tentative Monthly<br>Renumeration <br>₹ (Lacs)</th>
+    
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td class="col c1 values-hidden">Domain Expert/Business Analyst (Judicial Process)<br>
+<small>With knowledge of IT Solutions and Legal Procedures        
+Process mapping, requirement gathering, documentation, user workflows</small></td>
+<td class="col c2 values-hidden"><span>1</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span>–</span></td>
+<td class="col c6 values-hidden"><span>–</span></td>
+<td class="col c7 values-hidden"><span>–</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>1</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Team Leader<br>
+<small>B.Tech / MCA  with MBA and Managment Sklls and  8+ years experience in leading multi-disciplinary engineering teams delivering large web+app systems; with Strong background in full-stack architecture, cloud deployment, and secure software practices. </small></td>
+<td class="col c2 values-hidden"><span>1</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.75</span></td>
+<td class="col c5 values-hidden"><span>–</span></td>
+<td class="col c6 values-hidden"><span>–</span></td>
+<td class="col c7 values-hidden"><span>–</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>1</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Backend Developers<br>
+<small>B.Tech / MCA with 4+years in Java / Spring Boot / PostgreSQL        REST APIs,Java Spring Boot Framwork, authentication, workflow automation, ORM, performance tuning</small></td>
+<td class="col c2 values-hidden"><span>5</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span>7</span></td>
+<td class="col c6 values-hidden"><span>12</span></td>
+<td class="col c7 values-hidden"><span>1.5</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>12</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Frontend Developers<br>
+<small>B.Tech / MCA with 5+ years in Bootstrap or any other UI framework        Responsive UI, dashboard tiles, data visualisation, accessibility standards</small></td>
+<td class="col c2 values-hidden"><span>3</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span>2</span></td>
+<td class="col c6 values-hidden"><span>12</span></td>
+<td class="col c7 values-hidden"><span>1.5</span></td>
+<td class="col c8 values-hidden"><span>1</span></td>
+<td class="col c9 values-hidden"><span>12</span></td>
+<td class="col c10 values-hidden"><span>1.5</span></td>
+<td class="col c11 values-hidden"><span>6</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Mobile App Developers (Android / iOS)<br>
+<small>B.Tech / MCA with 5+ years in Flutter / React Native / Kotlin / Java / Swift development in Android / iOS        Cross-platform app dev, push notifications, secure session handling</small> </td>
+<td class="col c2 values-hidden"><span>2</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span></span></td>
+<td class="col c6 values-hidden"><span></span></td>
+<td class="col c7 values-hidden"><span></span></td>
+<td class="col c8 values-hidden"><span>1</span></td>
+<td class="col c9 values-hidden"><span>12</span></td>
+<td class="col c10 values-hidden"><span>1.5</span></td>
+<td class="col c11 values-hidden"><span>3</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Database Architect / DBA<br>
+    <small>B.Tech / MCA with 5+ years in PostgreSQL/Oracle/NoSQL        Data modelling, performance, replication, backup strategy</small></td>
+<td class="col c2 values-hidden"><span>1</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>2.5</span></td>
+<td class="col c5 values-hidden"><span>1</span></td>
+<td class="col c6 values-hidden"><span>12</span></td>
+<td class="col c7 values-hidden"><span>2.5</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>2</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">AI / ML Engineer<br>
+    <small>M.Tech / PhD AI or ML with 2+ years        NLP for document defect detection, OCR validation, classification, headnote generation, eScrutiny Automation</small></td>
+<td class="col c2 values-hidden"><span>1</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span></span></td>
+<td class="col c6 values-hidden"><span></span></td>
+<td class="col c7 values-hidden"><span></span></td>
+<td class="col c8 values-hidden"><span>1</span></td>
+<td class="col c9 values-hidden"><span>12</span></td>
+<td class="col c10 values-hidden"><span>1.5</span></td>
+<td class="col c11 values-hidden"><span>2</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">QA / Test Engineers<br>
+    <small>B.Tech / MCA with 3+ years        Manual + automated testing, performance & security testing</small></td>
+<td class="col c2 values-hidden"><span>2</span></td>
+<td class="col c3 values-hidden"><span>24</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span>–</span></td>
+<td class="col c6 values-hidden"><span>–</span></td>
+<td class="col c7 values-hidden"><span>–</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>2</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Cybersecurity Expert<br>
+    <small>B.Tech / CEH / CISSP with 5+ years        Penetration testing, vulnerability assessment, audit compliance (NIC / MeitY guidelines)</small></td>
+<td class="col c2 values-hidden"><span>1</span></td>
+<td class="col c3 values-hidden"><span>12</span></td>
+<td class="col c4 values-hidden"><span>1.5</span></td>
+<td class="col c5 values-hidden"><span>–</span></td>
+<td class="col c6 values-hidden"><span>–</span></td>
+<td class="col c7 values-hidden"><span>–</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>1</span></td>
+</tr>
+
+<tr>
+<td class="col c1 values-hidden">Hardware Analyst / System Architect<br>
+    <small>B.Tech / M.Tech (CS/IT/EC) with 5+ years experience in hardware requirement specifications, conducting load and scalability tests, and managing procurement coordination.        "Strong understanding of operating systems, storage systems, networking, and virtualization.
+Ability to assess hardware compatibility with application architecture.
+Knowledge of high availability, redundancy, and backup solutions.</small></td>
+<td class="col c2 values-hidden"><span>1</span></td>
+<td class="col c3 values-hidden"><span>12</span></td>
+<td class="col c4 values-hidden"><span>2</span></td>
+<td class="col c5 values-hidden"><span>–</span></td>
+<td class="col c6 values-hidden"><span>–</span></td>
+<td class="col c7 values-hidden"><span>–</span></td>
+<td class="col c8 values-hidden"><span>–</span></td>
+<td class="col c9 values-hidden"><span>–</span></td>
+<td class="col c10 values-hidden"><span>–</span></td>
+<td class="col c11 values-hidden"><span>1</span></td>
+</tr>
+
+<tr class="total-row">
+<td class="col c1 values-hidden">TOTAL MANPOWER</td>
+<td class="col c2 values-hidden" colspan="3"><span>18</span></td>
+<td class="col c5 values-hidden" colspan="3" ><span>10</span></td>
+<td class="col c8 values-hidden" colspan="3"><span>3</span></td>
+<td class="col c11 values-hidden"><span>31</span></td>
+</tr>
+
+</tbody>
+</table>
+
+<script>
+    let animationStarted = false;
+
+document.addEventListener("click", () => {
+    if (animationStarted) return;
+    animationStarted = true;
+
+    const steps = [
+        ['c1'],
+        ['c2','c3','c4'],
+        ['c2','c3','c4','fade'],
+        ['c5','c6','c7'],
+        ['c5','c6','c7','fade'],
+        ['c8','c9','c10'],
+        ['c8','c9','c10','fade'],
+        ['c11'],
+        ['c11','fade']
+    ];
+
+    let delay = 1500;
+
+    steps.forEach(step => {
+        setTimeout(() => {
+            const isFade = step.includes('fade');
+
+            step.forEach(c => {
+                if (c === 'fade') return;
+
+                document.querySelectorAll('.' + c).forEach(el => {
+                    /* ⬅ reveal column only when its step starts */
+                    el.style.visibility = 'visible';
+                    el.classList.add('slide-in');
+                    
+
+                    if (isFade) {
+                        el.classList.add('fade-in');
+                    }
+                    el.style.borderColor = '#000';
+                });
+                
+            });
+
+        }, delay);
+
+        delay += 1500;
+    });
+});
+</script>
+
+</body>
+</html>
+
